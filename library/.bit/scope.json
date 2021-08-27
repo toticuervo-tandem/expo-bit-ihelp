@@ -1,0 +1,9 @@
+{
+    "name": "library",
+    "remotes": {},
+    "version": "1.0.142",
+    "lanes": {
+        "current": "main",
+        "tracking": []
+    }
+}
