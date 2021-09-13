@@ -59,25 +59,18 @@
    * wrap the rule with curly brackets (e.g. `"{ui/*}": {}`)
    * see https://harmony-docs.bit.dev/aspects/variants for more info.
    **/
-  "teambit.workspace/variants": {
+   "teambit.workspace/variants": {
     /**
      * "*" is a special rule which applied on all components in the workspace.
      **/
     "*": {
-      "teambit.workspace/variants": {
-        /**
-         * "*" is a special rule which applied on all components in the workspace.
-         **/
-        "*": {
-          "teambit.react/react-native": {},
-          "teambit.dependencies/dependency-resolver": {
-            "policy": {
-              "peerDependencies": {
-                "react": "16.13.1",
-                "react-dom": "16.13.1",
-                "@expo/vector-icons": "12.0.5"
-              }
-            }
+      "teambit.react/react-native": {},
+      "teambit.dependencies/dependency-resolver": {
+        "policy": {
+          "peerDependencies": {
+            "react": "16.13.1",
+            "react-dom": "16.13.1",
+            "@expo/vector-icons": "12.0.5"
           }
         }
       }
